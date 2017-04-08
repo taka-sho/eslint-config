@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+- 6
+deploy:
+  provider: npm
+  email: takasho530000@gmail.com
+  api_key:
+    secure: WOA3nIOzYhFPt0DfYQG5XfWowBN1TR8tcBqciUVgivLPaKtnjpS/soIBaDijoPjhhlTa7H+UQ2u1bVvbtwzcMe8nQmsxmSdmU+cOj2lpdvPzhz5emT8ScPngjnoaqQY7QsbXaUqDpacoT1TbgVmP6Qha+oXT4MQxJa9Je65kaATuW0oKtGDMne06rsr+vI4bgOnXAL+yiJK5vKWDBqsmFWRJvUtveI+X8GqDcCdjOTckTZqzb0Q4kwq+E5p57rEzlZXOy8inyS56oSo244fosu6v5QmFp3+EE2dRAxswtNAKnPTDiYq+s5RV5yGcbvoZoXTT2rd2ZuyAuAbwSwiu1+X7zc8NHWiiDGEPJuvOl22SgHPNwJGeFugL4Wk9oLcGYJNkPXX/k4UVzdKgdkQVCcm3OqEleFlA+IjLsSmZ5UcKi2dqPFpKMf4lDuwDsMy4TydgO+pkk+8h3Q+PKqBevI3dmwhT7VlXES+I9Esie/idwwQZeq2hL/KFhCM39b6T96oV5des/eqYOiqttoR+P43E9OB+YGJtUcc8FKsXHVs14N0igrCDorpXo1tY7QIhztOCa8anNRe9N3EZso5bg4/9N+BUHQQiXu+tPCwKg/XkMokfpKH8gB3IBa9PE/GfK9LD4jzxw6rPOgAcXVnHhZb8A+1hJuv/+ds+cU9kaPI=
+  on:
+    tags: true
+    repo: taka-sho/eslint-config
+notifications:
+  email: false
