@@ -6,13 +6,14 @@
     "type": "git",
     "url": "git+ssh://git@github.com/taka-sho/eslint-config.git"
   },
+  "homepage": "https://github.com/taka-sho/eslint-config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --cache",
     "test": "npm run lint"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["eslint", "config"],
+  "author": "Shotaro Takahara",
   "license": "ISC",
   "dependencies": {
     "eslint-config-standard": "^10.2.0",
