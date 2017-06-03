@@ -1,8 +1,8 @@
-#@takasho/eslint-config
+# @takasho/eslint-config
 
 [![Build Status](https://travis-ci.org/taka-sho/eslint-config.svg?branch=master)](https://travis-ci.org/taka-sho/eslint-config)
 
-##Installation
+## Installation
 
 ```sh
 npm install --save-dev @takasho/eslint-config
@@ -19,12 +19,12 @@ module.exports = {
 ```
 
 
-##Test
+## Test
 
 ```sh
 npm test
 ```
 
-##License
+## License
 
 MIT
