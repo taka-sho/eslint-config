@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@takasho/eslint-config",
+  "version": "0.0.3",
+  "description": "Config for eslint",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/taka-sho/eslint-config.git"
@@ -13,8 +13,8 @@
     "test": "npm run lint"
   },
   "keywords": ["eslint", "config"],
-  "author": "Shotaro Takahara",
-  "license": "ISC",
+  "author": "Takasho",
+  "license": "MIT",
   "dependencies": {
     "eslint-config-standard": "^10.2.0",
     "eslint-plugin-eslint-comments": "^1.0.0",
